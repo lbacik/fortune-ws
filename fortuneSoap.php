@@ -6,27 +6,14 @@
  */
 class FortuneSrv
 {
-	/**
-	 * 
-	 * @return string
-	 */
-	public function test()
-	{
-		//global $config;
-		
-		//return dirname(__FILE__);
-		return config\defaultPath;
-	}
-
 	/*
   	* Losujemy fortunkê z wszystkich plików w katalogu, b¹dŸ konkretnego pliku 
 	* 
 	* Funkcja wykorzystujê skrypt PHP Fortune
 	* - je¿eli parametr $path wskazuje na katalog to powinna zostaæ wykorzystana funkcja quoteFromDir
 	* - je¿eli parametr wskazuje plik, to funkcja: getRandomQuote
-	*/
-	
-	/**
+	*
+	*	zwracany jest ci¹g ze znacznikami <br> - tak dzia³a wykorzystywana biblioteka
 	*
 	* @param string $path
 	* @return string

@@ -1,9 +1,8 @@
 <?php
 namespace config;
 
-//$pdo_sn = 'mysql:host=localhost;dbname=;charset=utf8';
-//$db_user = '';
-//$db_pwd = '';
-
 const baseDir = '../../fortune/fortune-data/';
-const defaultPath = 'debian';
+const defaultPath = 'debian/pl';
+
+const FORTUNE11 = '../../f3-lib/fortune11';
+const PHPWSDL = '../../f3-lib/php-wsdl-2.3';
